@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media(max-width:576px){
+       .container{
+        display: flex;
+        flex-direction: column;
+    width: 100%;
+    height: 100vh;
+   margin: 0 auto;
+   padding-top: 100px;
+   gap: 10px;
+    align-items: center;
+    background-color: rgb(225, 156, 9);
+   }
+
+.picture{
+ margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-image: url(https://mp3.big.az/artists_photo/4.jpg);
+}
+.controls {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+}
